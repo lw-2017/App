@@ -13,7 +13,7 @@ import android.view.View;
  * Created by Lenovo on 2017/11/21.
  */
 
-public class draw_view extends View {
+public class DrawView extends View {
     private Path mPath;
 
     private Paint mPaint;
@@ -22,7 +22,7 @@ public class draw_view extends View {
 
     private Handler handler;
 
-    public draw_view(Context context, Handler handler) {
+    public DrawView(Context context, Handler handler) {
         super(context);
         this.handler = handler;
 
