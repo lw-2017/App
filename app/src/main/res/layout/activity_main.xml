@@ -80,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="画图区域" />
+        android:text="画图区域"
+        android:textSize="36sp" />
 
 </RelativeLayout>
